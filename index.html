@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <div class="welcome-box">
+    <input type="text" id="visitorName" placeholder="Enter your name">
+
+    <button onclick="welcomeVisitor()">
+        Say Hello 👋
+    </button>
+
+    <p id="welcomeMessage"></p>
+</div>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+    <button id="themeToggle">🌙 Dark Mode</button>
+</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Losin</span></h1>
+
+            <h3>Future Web Developer 💜</h3>
+
+            <p class="description">
+                I love learning programming and creating
+                beautiful websites.
+            </p>
+
+            <a href="#about" class="btn">Discover More</a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="images/profile.png" alt="Profile Image">
+        </div>
+
+    </div>
+
+</section>
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a student who loves technology,
+            programming, and web design.
+            I enjoy learning new skills and building
+            creative projects.
+        </p>
+
+    </section>
+
+    <section id="skills" class="skills">
+
+        <h2>My Skills</h2>
+
+    
+<div class="skill-list">
+
+    <div class="skill-card">
+        <h3>HTML 🌸</h3>
+        <div class="progress">
+            <div class="progress-bar" style="width: 90%"></div>
+        </div>
+        <p>90%</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>CSS 🎨</h3>
+        <div class="progress">
+            <div class="progress-bar" style="width: 80%"></div>
+        </div>
+        <p>80%</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>JavaScript 💻</h3>
+        <div class="progress">
+            <div class="progress-bar" style="width: 60%"></div>
+        </div>
+        <p>60%</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>Python 🐍</h3>
+        <div class="progress">
+            <div class="progress-bar" style="width: 75%"></div>
+        </div>
+        <p>75%</p>
+    </div>
+
+</div>
+
+    </section>
+   <section id="projects" class="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>Daily Tasks Manager 📋</h3>
+
+            <p>
+                A Python application to organize
+                and manage daily tasks.
+            </p>
+
+            <span>Python | Tkinter</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Portfolio 🌸</h3>
+
+            <p>
+                A personal website to introduce myself
+                and showcase my skills and projects.
+            </p>
+
+            <span>HTML | CSS | JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Future Project 🚀</h3>
+
+            <p>
+                More exciting projects coming soon!
+            </p>
+
+            <span>Coming Soon</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Have a project idea or want to connect?
+        I would love to hear from you!
+    </p>
+
+    <a href="mailto:your-email@example.com" class="contact-btn">
+        Send Me an Email ✉️
+    </a>
+
+</section>
+    <button id="backToTop" title="Back to Top">↑</button>
+    <footer>
+        <p>Made with 💜 by Losin</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
